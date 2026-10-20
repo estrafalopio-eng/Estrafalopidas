@@ -84,29 +84,29 @@ export const CLASSROOM_GROUPS: ClassroomGroup[] = [
   { id: '11°2', name: '11°2', grade: '11', classroom: 'Aula 305' },
 ];
 
-export const MEN_SUBJECTS = [
-  'Matemáticas',
-  'Geometría',
-  'Estadística',
-  'Lengua Castellana',
-  'Comprensión Lectora',
-  'Ciencias Naturales',
-  'Biología',
-  'Química',
-  'Física',
-  'Ciencias Sociales',
-  'Historia y Geografía',
-  'Cátedra de Paz',
-  'Inglés',
-  'Laboratorio de Inglés',
-  'Educación Física, Recreación y Deportes',
-  'Tecnología e Informática',
-  'Educación Artística y Cultural',
-  'Ética y Valores Humanos',
-  'Educación Religiosa',
-  'Filosofía',
-  'Ciencias Políticas y Económicas',
+export interface OfficialSubject {
+  id: string;
+  officialName: string;
+  shortName: string;
+}
+
+export const OFFICIAL_SUBJECTS: OfficialSubject[] = [
+  { id: 'MAT', officialName: 'Matemáticas', shortName: 'Matemáticas' },
+  { id: 'CAS', officialName: 'Humanidades y Lengua Castellana', shortName: 'Castellano' },
+  { id: 'ING', officialName: 'Idioma Extranjero Inglés', shortName: 'Inglés' },
+  { id: 'NAT', officialName: 'Ciencias Naturales y Educación Ambiental', shortName: 'C. Naturales' },
+  { id: 'SOC', officialName: 'Ciencias Sociales, Historia y Geografía', shortName: 'C. Sociales' },
+  { id: 'FIL', officialName: 'Filosofía', shortName: 'Filosofía' },
+  { id: 'ART', officialName: 'Educación Artística', shortName: 'Artes' },
+  { id: 'EFI', officialName: 'Educación Física, Recreación y Deportes', shortName: 'Ed. Física' },
+  { id: 'ETI', officialName: 'Educación Ética y en Valores', shortName: 'Ética' },
+  { id: 'TEC', officialName: 'Tecnología e Informática', shortName: 'Tecnología' },
+  { id: 'MTA', officialName: 'Media Técnica: Edición Audiovisual', shortName: 'Audiovisuales' },
+  { id: 'MTB', officialName: 'Media Técnica: Bases de Datos', shortName: 'Bases de Datos' },
 ];
+
+export const MEN_SUBJECTS = OFFICIAL_SUBJECTS.map((s) => s.officialName);
+
 
 export const CURATED_PALETTE = [
   '#007DC5', // Cyan institucional C=100 M=40 Y=0 K=0
