@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vf-cyan: #007DC5;
+  --color-vf-navy: #034EA2;
+  --color-vf-magenta: #ED145B;
+  --color-vf-black: #231F20;
+  --color-vf-gray: #939598;
+}

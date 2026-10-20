@@ -1,0 +1,6 @@
+{
+  "name": "Motor de Agendamiento Escolar I.E. Villa Flora",
+  "description": "Dashboard corporativo con motor Drag & Drop y gestión de 914 bloques institucionales para la Institución Educativa Villa Flora.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

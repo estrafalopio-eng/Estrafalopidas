@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" fill="none">
+  <!-- Crest Icon -->
+  <g transform="translate(4, 3)">
+    <!-- Atom orbits -->
+    <ellipse cx="35" cy="35" rx="30" ry="12" fill="none" stroke="#007DC5" stroke-width="2.5" stroke-dasharray="4 2" />
+    <ellipse cx="35" cy="35" rx="30" ry="12" fill="none" stroke="#034EA2" stroke-width="2.5" transform="rotate(35 35 35)" />
+    <ellipse cx="35" cy="35" rx="30" ry="12" fill="none" stroke="#034EA2" stroke-width="2.5" transform="rotate(-35 35 35)" />
+    <!-- Nucleus -->
+    <circle cx="35" cy="35" r="5" fill="#007DC5" />
+    <!-- Book open at bottom -->
+    <path d="M 12 56 C 24 51, 31 51, 35 56 C 39 51, 46 51, 58 56 L 56 66 C 46 61, 39 61, 35 65 C 31 61, 24 61, 14 66 Z" fill="#034EA2" />
+    <path d="M 16 54 C 24 50, 31 50, 35 54 C 39 50, 46 50, 54 54" stroke="#ffffff" stroke-width="1.8" fill="none" />
+  </g>
+
+  <!-- Typography integrated in single image -->
+  <text x="82" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#939598" letter-spacing="1.5">INSTITUCIÓN EDUCATIVA</text>
+  <text x="82" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#034EA2" letter-spacing="-0.5">VILLA FLORA</text>
+  <text x="82" y="65" font-family="Georgia, serif" font-style="italic" font-size="11" fill="#007DC5" letter-spacing="0.5">Ciencia &amp; Libertad</text>
+</svg>
